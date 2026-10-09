@@ -7,8 +7,9 @@ CRUD completo de usuários, construído em etapas para registrar a minha evoluç
 | Versão | Foco | Status |
 |---|---|---|
 | **V1** | CRUD REST com soft delete, Flyway, Swagger e Docker | ✅ Back-end pronto |
-| **V2** | Autenticação e autorização com JWT | 🔜 Planejada |
-| **V3** | Testes, CI com GitHub Actions e deploy | 🔜 Planejada |
+| **V2** | Autenticação com JWT e erros padronizados | 🔜 Planejada |
+| **V3** | Front-end em Angular consumindo a API | 🔜 Planejada |
+| **V4** | Testes, CI com GitHub Actions e deploy | 🔜 Planejada |
 
 O front-end em Angular vem depois do back-end e será adicionado a este mesmo repositório.
 
