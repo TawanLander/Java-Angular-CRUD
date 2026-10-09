@@ -11,7 +11,7 @@ public record UserPatchRequest(
         String name,
 
         @Schema(description = "Telefone com DDD, apenas números", example = "1120023003")
-        @Size(message = "phone não pode ter mais que 11 caracteres", max = 11)
+        @Pattern(regexp = "\\d{10,11}", message = "phone deve conter 10 ou 11 dígitos")
         String phone,
 
         @Schema(description = "E-mail único", example = "exemplo@gmail.com")
